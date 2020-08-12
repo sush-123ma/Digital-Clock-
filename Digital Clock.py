@@ -20,8 +20,6 @@ while True:
         a="PM"
     tu.write(str(h).zfill(2)+":"+str(m).zfill(2)+":"+str(s).zfill(2)+a,align="center",font=("arial",30,"bold"))
     tu.hideturtle()
-    screen=Screen()
-    screen.exitonclick()
     s=s+1
     time.sleep(1)
     if s==60:
